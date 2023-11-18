@@ -34,8 +34,6 @@ router.post("/signup", (req, res) => {
               education: data.education,
               skills: data.skills,
               rating: data.rating,
-              resume: data.resume,
-              profile: data.profile,
             });
 
       userDetails
